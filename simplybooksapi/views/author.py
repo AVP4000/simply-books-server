@@ -77,7 +77,6 @@ class AuthorView(ViewSet):
         author.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-    
     # Delete book 
     def destroy(self, request, pk):
         author = Author.objects.get(pk=pk)
