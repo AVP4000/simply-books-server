@@ -1,6 +1,6 @@
 [
     {
-        "model": "simplybooksapi.book_genre",
+        "model": "simplybooksapi.bookgenre",
         "pk": 1,
         "fields": {
         "genre_id": "1",
