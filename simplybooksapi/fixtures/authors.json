@@ -1,0 +1,14 @@
+[
+    {
+        "model": "simplybooksapi.author",
+        "pk": 1,
+        "fields": {
+        "email": "sin@google.com",
+        "first_name": "Avarice",
+        "last_name": "Pride",
+        "image": "https://c4.wallpaperflare.com/wallpaper/720/747/619/alchemist-fma-fullmetal-greed-wallpaper-preview.jpg",
+        "favorite": true,
+        "uid": "Y3Gce3svxoQXeaMfCmSxt6gMV3G2"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "model": "simplybooksapi.genre",
+        "pk": 1,
+        "fields": {
+        "genre": "comedy"
+        }
+    }
+]
