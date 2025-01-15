@@ -41,7 +41,7 @@ class AuthorView(ViewSet):
         serializer = AuthorSerializer(author, many=True)
         return Response(serializer.data)
    
-    # Creates the book 
+    # Creates the author 
     def create(self, request):
         """Handle POST operations
 
@@ -60,14 +60,14 @@ class AuthorView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def update(self, request, pk):
-        """Handle PUT requests for a book"""
+        """Handle PUT requests for an author"""
 
-        # Fetch the book to be updated
+        # Fetch the author to be updated
         author = Author.objects.get(pk=pk)
 
     
 
-        # Update book details
+        # Update author details
         author.email = request.data["email"]
         author.first_name = request.data["first_name"]
         author.last_name = request.data["last_name"]
@@ -77,7 +77,7 @@ class AuthorView(ViewSet):
         author.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-    # Delete book 
+    # Delete author 
     def destroy(self, request, pk):
         author = Author.objects.get(pk=pk)
         author.delete()
