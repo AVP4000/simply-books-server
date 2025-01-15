@@ -1,0 +1,10 @@
+[
+    {
+        "model": "simplybooksapi.book_genre",
+        "pk": 1,
+        "fields": {
+        "genre_id": "1",
+        "book_id": "1"
+        }
+    }
+]

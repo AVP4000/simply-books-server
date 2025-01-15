@@ -1,0 +1,15 @@
+[
+    {
+        "model": "simplybooksapi.book",
+        "pk": 1,
+        "fields": {
+        "author_id": "1",
+        "title": "My Deadly Sins",
+        "image": "https://www.simplycatholic.com/wp-content/uploads/2018/10/shutterstock_16939240.jpg",
+        "price": "3.99",
+        "sale": true,
+        "uid": "Y3Gce3svxoQXeaMfCmSxt6gMV3G2",
+        "description": "Only 7 beings in the world know about this and maybe more now."
+        }
+    }
+]
